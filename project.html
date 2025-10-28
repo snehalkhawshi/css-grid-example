@@ -387,38 +387,6 @@
             <!-- card 4 end -->
         </main>
     </div>
-    <script>
-        let n = 5;
-        let result = "";
-        for (let i = 1; i <= n; i++) {
-            for (let j = 5; j <= 2*j-1 - i; j--) {
-                result += ' *'
-            }
-            for (let k = 1 ; k <= i*2 - 1; k++) {
-                result += '*'
-            }
-
-
-            result += "\n";
-        }
-        console.log(result);
-                for (let i = 0; i < n; i++) {
-            // print leading spaces
-            for (let j = 0; j < i; j++) {
-                result += ' ';
-            }
-
-            // print stars
-            for (let k = 0; k < 2 * (n - i) - 1; k++) {
-                result += '*';
-            }
-
-            // move to next line
-            result += '\n';
-        }
-
-        console.log(result);
-    </script>
-
 </body>
+
 </html>
